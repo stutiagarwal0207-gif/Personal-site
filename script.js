@@ -9,8 +9,8 @@ function moveButton() {
   const container = document.querySelector(".container");
   const rect = container.getBoundingClientRect();
 
-  const x = Math.random() * (rect.width - noBtn.offsetWidth);
-  const y = Math.random() * (rect.height - noBtn.offsetHeight);
+  const x = Math.random() * (rect.width - noBtn.offsetWidth - 10);
+  const y = Math.random() * (rect.height - noBtn.offsetHeight - 10);
 
   noBtn.style.left = `${x}px`;
   noBtn.style.top = `${y}px`;
