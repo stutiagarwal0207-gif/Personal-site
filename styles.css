@@ -3,6 +3,10 @@
   font-family: "Poppins", "Comic Sans MS", cursive;
 }
 
+html {
+  font-size: 16px;
+}
+
 body {
   margin: 0;
   height: 100vh;
@@ -151,3 +155,24 @@ button {
     padding: 12px 24px;
   }
 }
+
+/* MOBILE TEXT FIX */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 2.3rem;
+  }
+
+  #loveMessage h2 {
+    font-size: 1.9rem;
+  }
+
+  p {
+    font-size: 1.1rem;
+  }
+
+  button {
+    font-size: 1.05rem;
+    padding: 14px 26px;
+  }
+}
+
